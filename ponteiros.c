@@ -22,8 +22,5 @@ int main (){
     printf("&p1 = %p, *p1 = %d, p1 = %p\n", &p1, *p1, p1);  //*p1 o conteudo do endereço armazenado nesse ponteiro.
     printf("&p2 = %p, *p2 = %d, p2 = %p\n\n", &p2, *p2, p2);
 
-// tentando usar emoji
-
-
     return 0;
 }

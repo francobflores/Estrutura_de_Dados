@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<stdbool.h>
 
 int main(){
     
@@ -16,6 +17,7 @@ int main(){
     printf("tamanho de um double = %ld bytes\n",sizeof(double));
     printf("tamanho de um int * = %ld bytes\n",sizeof(int *));
     printf("tamanho de um char * = %ld bytes\n",sizeof(char *));
-    printf("tamanho de um float* = %ld bytes\n",sizeof(float *));    
+    printf("tamanho de um float* = %ld bytes\n",sizeof(float *));
+    printf("tamanho de um bool = %ld bytes\n",sizeof(bool));
     return 0;
 }
